@@ -313,6 +313,12 @@ body {
     }
 }
 
+@media screen and (max-height: 300px){
+    .main{
+        margin-top: 350px;
+    }
+}
+
 
 
 /* #home{
