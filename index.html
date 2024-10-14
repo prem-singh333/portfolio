@@ -1,22 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portfolio</title>
 </head>
+
 <body>
-    <h3>This is a home page</h3>
-    <ul>
-        <li><a href="" class="links">Home</a></li>
-        <li><a href="" class="links">About</a></li>
-        <li><a href="" class="links"></a></li>
-        <li><a href="" class="links"></a></li>
-        <li><a href="" class="links"></a></li>
-    </ul>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="prem.jpg" alt="" class="profile">
+                <h3 class="name">Prem.</h3>
+            </div>
+            <div class="section">
+                <a href="index.html" class="links">Home</a>
+                <a href="about.html" class="links">About</a>
+                <a href="project.html" class="links">Project</a>
+                <a href="Skills.html" class="links">Skills</a>
+                <a href="contact.html" class="links">Contact me</a>
+            </div>
+        </nav>
+        <div class="hamburger">
+            <i class="fa-solid fa-bars" id="menu"></i>
+            <i class="fa-solid fa-xmark" id="cross"></i>
+        </div>
+
+        <ul class="sidebar sidebargo">
+            <li><a href="index.html" class="sidebarlinks">Home</a></li>
+            <li><a href="about.html" class="sidebarlinks">About</a></li>
+            <li><a href="project.html" class="sidebarlinks">Project</a></li>
+            <li><a href="skill.html" class="sidebarlinks">Skills</a></li>
+            <li><a href="contact.html" class="sidebarlinks">Contact me</a></li>
+        </ul>
+    </header>
+
+
+    <div class="container">
+        <div class="main">
+            <div class="intro">
+                <h2 class="hllo">
+                    Hello!
+                </h2>
+
+                <div class="namee">
+                    <p class="n1">I'm</p>
+                    <p class="n2">Prem Kumar Singh</p>
+                </div>
+
+                <p class="msg">I am a passionate and dedicated fresher in Frontend Development with skills in
+                    JavaScript, HTML, CSS and DSA.I'm eager to learn, innovate, and contribute to exciting proojects. My
+                    portfolio showcases a few projects that highlight my proficiency and intrest in building responsive,
+                    user-frendly web applications.<br><br>
+
+                    Feel free to explore my work, and don't hesitate to reach out for collaborations or job
+                    opportunities.<br><br>
+
+                    Looking forword to connecting!.
+                </p>
+
+                <div class="skls">
+                    <p class="text first-text">I am a</p>
+                    <p class="text sec-text">Developer</p>
+                </div>
+
+                <a href="Resume.pdf" download><button class="btn">Download CV</button></a>
+            </div>
+
+            <div class="img"></div>
+        </div>
+    </div>
+    </div>
 
 
     <script src="script.js"></script>
 </body>
+
 </html>
